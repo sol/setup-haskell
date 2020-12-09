@@ -62,7 +62,7 @@ jobs:
       - uses: actions/setup-haskell@v1.1
         with:
           ghc-version: '8.8.3' # Exact version of ghc to use
-          # cabal-version: 'latest'. Omitted, but defalts to 'latest'
+          # cabal-version: 'latest'. Omitted, but defaults to 'latest'
           enable-stack: true
           stack-version: 'latest'
       - run: runhaskell Hello.hs
